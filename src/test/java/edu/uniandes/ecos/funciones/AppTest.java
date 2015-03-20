@@ -1,12 +1,14 @@
+/*
+*Clase para realizar las pruebas unitarias del programa
+*@author: José Javier Virviescas Toledo
+*@version: 1.0
+*/
 package edu.uniandes.ecos.funciones;
 
 import java.text.DecimalFormat;
 import java.util.LinkedList;
 import junit.framework.TestCase;
 
-/**
- * Unit test for simple AppTest
- */
 public class AppTest extends TestCase{
     Operar operar = new Operar();
     DecimalFormat df = new DecimalFormat("#.0#");
